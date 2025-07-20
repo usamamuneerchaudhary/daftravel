@@ -165,7 +165,6 @@ The following endpoints are supported by this package. Each endpoint supports ba
 | `/payments` | `payments()` | limit, page |
 | `/expenses` | `expenses()` | limit, page |
 | `/reports` | `reports()` | limit, page |
-| `/settings` | `settings()` | limit, page |
 | `/users` | `users()` | limit, page |
 | `/taxes` | `taxes()` | limit, page |
 | `/currencies` | `currencies()` | limit, page |
@@ -308,17 +307,6 @@ $report = Daftravel::reports()->find(1);
 $report = Daftravel::reports()->create($data);
 $report = Daftravel::reports()->update(1, $data);
 Daftravel::reports()->delete(1);
-```
-
-### Settings
-
-```php
-// Basic CRUD operations
-$settings = Daftravel::settings()->all();
-$setting = Daftravel::settings()->find(1);
-$setting = Daftravel::settings()->create($data);
-$setting = Daftravel::settings()->update(1, $data);
-Daftravel::settings()->delete(1);
 ```
 
 ### Users

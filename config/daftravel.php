@@ -2,32 +2,32 @@
 
 return [
     'api_url' => env('DAFTRA_API_URL', 'https://api.daftra.com/v2'),
-    
+
     'api_key' => env('DAFTRA_API_KEY'),
-    
+
     'timeout' => env('DAFTRA_TIMEOUT', 30),
-    
+
     'retry' => [
         'times' => env('DAFTRA_RETRY_TIMES', 3),
         'delay' => env('DAFTRA_RETRY_DELAY', 1000),
     ],
-    
+
     'cache' => [
         'enabled' => env('DAFTRA_CACHE_ENABLED', true),
         'ttl' => env('DAFTRA_CACHE_TTL', 3600),
         'prefix' => env('DAFTRA_CACHE_PREFIX', 'daftra_'),
     ],
-    
+
     'logging' => [
         'enabled' => env('DAFTRA_LOGGING_ENABLED', true),
         'level' => env('DAFTRA_LOGGING_LEVEL', 'info'),
     ],
-    
+
     'default_headers' => [
         'Accept' => 'application/json',
         'Content-Type' => 'application/json',
     ],
-    
+
     'endpoints' => [
         'products' => '/products',
         'categories' => '/categories',
@@ -39,7 +39,6 @@ return [
         'payments' => '/payments',
         'expenses' => '/expenses',
         'reports' => '/reports',
-        'settings' => '/settings',
         'users' => '/users',
         'taxes' => '/taxes',
         'currencies' => '/currencies',

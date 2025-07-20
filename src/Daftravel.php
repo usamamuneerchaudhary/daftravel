@@ -13,7 +13,6 @@ use UsamamuneerChaudhary\Daftravel\Services\PurchaseService;
 use UsamamuneerChaudhary\Daftravel\Services\PaymentService;
 use UsamamuneerChaudhary\Daftravel\Services\ExpenseService;
 use UsamamuneerChaudhary\Daftravel\Services\ReportService;
-use UsamamuneerChaudhary\Daftravel\Services\SettingsService;
 use UsamamuneerChaudhary\Daftravel\Services\UserService;
 use UsamamuneerChaudhary\Daftravel\Services\TaxService;
 use UsamamuneerChaudhary\Daftravel\Services\CurrencyService;
@@ -92,11 +91,6 @@ class Daftravel
     public function reports(): ReportService
     {
         return new ReportService($this->client, $this->config);
-    }
-
-    public function settings(): SettingsService
-    {
-        return new SettingsService($this->client, $this->config);
     }
 
     public function users(): UserService

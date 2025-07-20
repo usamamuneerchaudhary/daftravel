@@ -15,7 +15,6 @@ namespace UsamamuneerChaudhary\Daftravel\Services;
  *   - update(int $id, array $data) - Update an existing report
  *   - delete(int $id) - Delete a report
  *   - paginate(int $page = 1, int $limit = 20, array $params = []) - Paginate reports
- *   - search(string $query, array $params = []) - Search reports
  *
  * Path parameters (for GET operations):
  *   - format (string, default: ".json") - Format of the output (GET /reports{format}, GET /reports/{id}{format})

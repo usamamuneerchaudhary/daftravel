@@ -24,7 +24,6 @@ All notable changes to `daftravel` will be documented in this file.
 - **Payment Processing**: Payment tracking, refunds, allocations
 - **Expense Management**: Expense tracking, approvals, reimbursements
 - **Reporting**: Sales, inventory, profit/loss, balance sheet reports
-- **Settings Management**: Company, tax, invoice, email settings
 - **User Management**: User profiles, permissions, roles
 - **Tax Management**: Tax calculations, reports, returns
 - **Currency Management**: Exchange rates, conversions
