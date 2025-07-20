@@ -8,13 +8,6 @@ build:
       - chmod +x composer.phar
       - ./composer.phar install
   nodes:
-    coverage:
-      tests:
-        override:
-          - command: XDEBUG_MODE=coverage php ./tools/phpunit --coverage-clover=clover.xml
-            coverage:
-              file: clover.xml
-              format: clover
     analysis:
       tests:
         override:
