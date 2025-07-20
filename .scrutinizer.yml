@@ -1,0 +1,30 @@
+build:
+  environment:
+    php:
+      version: '8.2'
+  dependencies:
+    before:
+      - wget -O composer.phar https://getcomposer.org/composer.phar
+      - chmod +x composer.phar
+      - ./composer.phar install
+  nodes:
+    coverage:
+      tests:
+        override:
+          - command: XDEBUG_MODE=coverage php ./tools/phpunit --coverage-clover=clover.xml
+            coverage:
+              file: clover.xml
+              format: clover
+    analysis:
+      tests:
+        override:
+          - php-scrutinizer-run
+coding_style:
+  php:
+    spaces:
+      around_operators:
+        concatenation: true
+      ternary_operator:
+        in_short_version: false
+      other:
+        after_type_cast: true
