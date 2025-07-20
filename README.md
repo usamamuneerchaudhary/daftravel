@@ -1,6 +1,6 @@
 # Daftravel - Laravel Package for Daftra API
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/usamamuneerchaudhary/daftra?style=flat-square&g)](https://packagist.org/packages/usamamuneerchaudhary/daftra)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/usamamuneerchaudhary/daftravel?style=flat-square&g)](https://packagist.org/packages/usamamuneerchaudhary/daftravel)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftravel/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftravel/?branch=main)
 [![CodeFactor](https://www.codefactor.io/repository/github/usamamuneerchaudhary/daftravel/badge)](https://www.codefactor.io/repository/github/usamamuneerchaudhary/daftravel)
 [![Build Status](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftravel/badges/build.png?b=main)](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftravel/build-status/main)
