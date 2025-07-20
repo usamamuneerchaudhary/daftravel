@@ -1,6 +1,7 @@
 {
     "name": "usamamuneerchaudhary/daftravel",
     "description": "Laravel package for Daftra API integration",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "keywords": ["laravel", "daftra", "api", "client", "accounting", "erp"],
