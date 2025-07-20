@@ -1,5 +1,13 @@
 # Daftravel - Laravel Package for Daftra API
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/usamamuneerchaudhary/daftra?style=flat-square&g)](https://packagist.org/packages/usamamuneerchaudhary/daftra)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftra/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftra/?branch=main)
+[![CodeFactor](https://www.codefactor.io/repository/github/usamamuneerchaudhary/daftra/badge)](https://www.codefactor.io/repository/github/usamamuneerchaudhary/daftra)
+[![Build Status](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftra/badges/build.png?b=main)](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftra/build-status/main)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftra/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
+[![Total Downloads](https://img.shields.io/packagist/dt/usamamuneerchaudhary/daftra?style=flat-square)](https://packagist.org/packages/usamamuneerchaudhary/daftra)
+[![Licence](https://img.shields.io/packagist/l/usamamuneerchaudhary/daftra?style=flat-square)](https://github.com/usamamuneerchaudhary/daftra/blob/HEAD/LICENSE.md)
+
 A comprehensive Laravel package for integrating with the Daftra API. This package provides a clean, fluent interface for all Daftra API endpoints including products, customers, invoices, purchases, payments, and more.
 
 ## Features
