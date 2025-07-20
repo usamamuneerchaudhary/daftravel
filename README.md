@@ -5,8 +5,8 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/usamamuneerchaudhary/daftravel/badge)](https://www.codefactor.io/repository/github/usamamuneerchaudhary/daftravel)
 [![Build Status](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftravel/badges/build.png?b=main)](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftravel/build-status/main)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/usamamuneerchaudhary/daftravel/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
-[![Total Downloads](https://img.shields.io/packagist/dt/usamamuneerchaudhary/daftra?style=flat-square)](https://packagist.org/packages/usamamuneerchaudhary/daftra)
-[![Licence](https://img.shields.io/packagist/l/usamamuneerchaudhary/daftra?style=flat-square)](https://github.com/usamamuneerchaudhary/daftra/blob/HEAD/LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/usamamuneerchaudhary/daftravel?style=flat-square)](https://packagist.org/packages/usamamuneerchaudhary/daftravel)
+[![Licence](https://img.shields.io/packagist/l/usamamuneerchaudhary/daftravel?style=flat-square)](https://github.com/usamamuneerchaudhary/daftravel/blob/HEAD/LICENSE.md)
 
 A comprehensive Laravel package for integrating with the Daftra API. This package provides a clean, fluent interface for all Daftra API endpoints including products, customers, invoices, purchases, payments, and more.
 
